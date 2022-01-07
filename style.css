@@ -1,0 +1,107 @@
+
+body {
+ background: #211652;
+  font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+
+
+}
+.name {
+  color: #7D73FC;
+  
+  
+}
+
+h2 {
+  color: #EDECFF;
+
+}
+
+.menu-icon {
+  position: absolute;
+left: 16.67%;
+right: 16.67%;
+top: 50%;
+bottom: 50%;
+}
+
+.line {
+  position: -ms-page;
+height: 0px;
+left: 0px;
+right: 0px;
+top: calc(50% - 0px/2 + 0.5px);
+
+border: 1px solid #646369
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+body{
+ position: static;
+width: 327px;
+height: 170px;
+left: 0px;
+top: 0px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 28px;
+/* or 140% */
+
+text-align: center;
+
+/* Theme 4 / Neutral 7 */
+
+color: #C8C8D4;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 24px 0px;
+}
+
+.bar1 {
+  position: absolute;
+left: 16.67%;
+right: 16.67%;
+top: 29.17%;
+bottom: 70.83%;
+
+}
+.bar2 {
+ 
+position: absolute;
+left: 16.67%;
+right: 16.67%;
+top: 50%;
+bottom: 50%;
+
+}
+.bar3 {
+  position: absolute;
+  left: 16.67%;
+  right: 16.67%;
+  top: 70.83%;
+  bottom: 29.17%;
+
+}
+
+.barname {
+  color: #FFFFFF;
+  position: inherit;
+
+}
