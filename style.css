@@ -1,0 +1,318 @@
+
+body {
+
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+
+
+}
+.name {
+  color: #7D73FC;
+  
+  
+}
+
+h2 {
+  color: #EDECFF;
+
+}
+
+.menu-icon {
+  position: absolute;
+left: 16.67%;
+right: 16.67%;
+top: 50%;
+bottom: 50%;
+}
+
+.line {
+  position:inherit;
+height: 0px;
+left: 0px;
+right: 0px;
+top: calc(50% - 0px/2 + 0.5px);
+
+border: 1px solid #646369
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+
+
+  
+.menubar {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+  margin-left: 15px;
+	/* position:absolute; */
+}
+
+.address_text {
+ 
+position: inherit;
+/* width: 107px;
+height: 16px; */
+/* left: 8px; */
+top: 5.33px;
+
+
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 24px;
+/* or 200% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+
+/* Theme 4 / Primary 3 */
+
+color: #9490FF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 8px;
+
+}
+ul,li,ol {
+  
+  margin: 0.5px;
+  padding: 0px;
+   list-style: none;
+   /* Bootstrap */
+position: inherit;
+width: 73.55px;
+height: 15.48px;
+left: 0px;
+top: 7.74px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 24px;
+/* or 160% */
+
+/* display: flex; */
+align-items: center;
+
+/* Theme 4 / Neutral 10 */
+
+color: #F5F5FF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 0px;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  background: #191765; 
+  /*  height: 500px; */
+ color: white;
+   border-radius: 10px;
+} 
+
+.topnav {
+  overflow: hidden;
+  background-color: #191765;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: #191765;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #7D73FC;
+  color: black;
+}
+
+
+
+.active {
+  color: #FFFFFF;
+  /* position: inherit; */
+  position: static;
+width: 81px;
+height: 16px;
+left: 12px;
+top: 10px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 16px;
+/* identical to box height, or 89% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.03em;
+
+/* Theme 3 / Neutral 11 */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 0px;
+
+
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid gray; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #7D73FC;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #7D73FC;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #191765;
+  padding: 20px;
+}
+
+.multi {
+  position: static;
+width: 327px;
+height: 105px;
+left: 0px;
+top: 0px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 44px;
+/* or 137% */
+
+display: flex;
+align-items: center;
+
+/* Neutrals/N0 */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+
+.image_placeholder {
+  /* Img Placeholder */
+
+/* margin: 50px; */
+position: inherit;
+width: 327px;
+height: 236px;
+left: 0px;
+top: 0px;
+padding-bottom: 50px;
+
+background: linear-gradient(0deg, #F9F9F9, #F9F9F9), url(image_processing20200716-21735-f07s4k.png);
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 24px 0px;
+}
+.recent_work {
+  color: #9490FF;
+  flex: none;
+order: 0;
+flex-grow: 0;
+margin: 24px 0px;
+/* Text */
+
+
+
+position: static;
+width: 327px;
+height: 104px;
+left: 24px;
+top: 0px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 52px;
+/* or 130% */
+
+display: flex;
+align-items: center;
+
+}
