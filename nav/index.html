@@ -14,36 +14,77 @@
 </head>
 <body>
     <div class="wrapper">
-<nav class="flex-nav">
-<ul>
-    <li> <a href="#">Item 01</a></li>
-    <li> <a href="#">Item 01</a></li>
-    <li> <a href="#">Item 01</a></li>
-    <li> <a href="#">Item 01</a></li>
-    <li> <a href="#">Item 01</a></li>
+   <header class="top">
+     <h1><a href="#">Faculty Of Computer Science</a></h1>
+   </header>
+       
+  <nav class="flex-nav">
+    <a href="#" class="toggleNav"><i class="fa fa-bars"></i> Menu</a>
+  <ul class="open">
+      <li> <a href="#">Joe Doe</a></li>
+      <li> <a href="#">Portfolio</a></li> 
+      <li> <a href="#">about</a></li>
+      <li> <a href="#">about</a></li>
+      <li> <a href="#">about</a></li>
+      <li> <a href="#">contact</a></li>
+      <!-- <li> <a href="#">Item 01</a></li> -->
 
 
     <li class="social">
-        <a href="https://twitter.com/KarolynneApio"><i class=".fa fa-twitter" ></i></a>
+        <a href="https://twitter.com/KarolynneApio"><i class="fa fa-twitter" ></i></a>
       </li>
 
       <li class="social">
-        <a href="http://facebook.com/wesbos.developer"><i class=".fa fa-facebook" ></i></a>
+        <a href="https://www.facebook.com/K%C3%A0r%C3%B3ly%C3%B1%C3%B1%C3%A9-Apio"><i class="fa fa-facebook" ></i></a>
       </li>
 
       
       <li class="social">
-        <a href="http://github.com/wesbos"><i class=".fa fa-github" ></i></a>
+        <a href="https://github.com/Carolynn17"><i class="fa fa-github" ></i></a>
       </li>
 
       <li class="social">
-        <a href="http://instagram.com/wesbos"><i class=".fa fa-instagram" ></i></a>
+        <a href="http://instagram.com/KarolynneApio"><i class="fa fa-instagram" ></i></a>
       </li>
 
 </ul>
 </nav>
+    <section class="hero">
+      <img src="Gulu-University.jpg" style="display: flex; width: 900px;">
+    </section>
 
+    <section class="details">
+       <p> A simple video course to help you master flexbox</p>
+       <p>Sign up today </p>
+    </section>
+
+
+    <section class="signup">
+      <form action="" class="signup">
+        <input type="text" placeholder="Your name">
+        <input type="email" placeholder="Your email address">
+        <input type="submit" values ="signup">
+
+      </form>
+    </section>
+
+    <footer>
+      <p>$copy$: Caroline Apio</p>
+    </footer>
 
     </div>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+ <script>
+
+   $(function() {
+     $('.toggleNav') .on('click', function() {
+      //  $('.flex-nav ul') .toggleClass('open');
+      $('flex-nav ul') .slideToggle();
+     });
+   } );
+
+ </script>
+    
 </body>
 </html>
